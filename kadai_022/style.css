@@ -23,7 +23,7 @@ main {
     border: 3px solid rgb(238, 204, 204);
     flex-basis: 25%;
     padding: 10px 15px;
-    margin: 20px o;
+    margin: 20px 0;
     text-align: center;
 }
 h2 {
@@ -38,7 +38,7 @@ h2::before {
     font-weight: bold;
     color: rgb(97, 206, 249);
 }
-.contens img {
+.contents img {
     margin: 10px 0;
     width: 70%;
 }
@@ -63,6 +63,5 @@ a:hover {
         font-size: 25px;
     }
     #parent {
-        display: block;
-    }
+    flex-direction: column;    }
 }
